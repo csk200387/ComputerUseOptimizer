@@ -1,0 +1,979 @@
+{
+ "id": "ws3",
+ "platform": "web",
+ "app": "benchmarks/pages/shop.html",
+ "window": "CUOP 문구점 — 주문",
+ "root": {
+  "id": "w1",
+  "role": "document",
+  "raw_role": "RootWebArea",
+  "name": "CUOP 문구점 — 주문",
+  "states": [
+   "focused"
+  ],
+  "children": [
+   {
+    "id": "w2",
+    "role": "group",
+    "raw_role": "banner",
+    "children": [
+     {
+      "id": "w3",
+      "role": "heading",
+      "raw_role": "heading",
+      "name": "CUOP 문구점",
+      "children": [
+       {
+        "id": "w4",
+        "role": "text",
+        "raw_role": "StaticText",
+        "name": "CUOP 문구점"
+       }
+      ]
+     },
+     {
+      "id": "w5",
+      "role": "group",
+      "raw_role": "navigation",
+      "name": "주 메뉴",
+      "children": [
+       {
+        "id": "w6",
+        "role": "link",
+        "raw_role": "link",
+        "name": "신상품",
+        "children": [
+         {
+          "id": "w7",
+          "role": "text",
+          "raw_role": "StaticText",
+          "name": "신상품"
+         }
+        ]
+       },
+       {
+        "id": "w8",
+        "role": "link",
+        "raw_role": "link",
+        "name": "베스트",
+        "children": [
+         {
+          "id": "w9",
+          "role": "text",
+          "raw_role": "StaticText",
+          "name": "베스트"
+         }
+        ]
+       },
+       {
+        "id": "w10",
+        "role": "link",
+        "raw_role": "link",
+        "name": "할인",
+        "children": [
+         {
+          "id": "w11",
+          "role": "text",
+          "raw_role": "StaticText",
+          "name": "할인"
+         }
+        ]
+       },
+       {
+        "id": "w12",
+        "role": "link",
+        "raw_role": "link",
+        "name": "이벤트",
+        "children": [
+         {
+          "id": "w13",
+          "role": "text",
+          "raw_role": "StaticText",
+          "name": "이벤트"
+         }
+        ]
+       },
+       {
+        "id": "w14",
+        "role": "text",
+        "raw_role": "StaticText",
+        "name": " "
+       },
+       {
+        "id": "w15",
+        "role": "link",
+        "raw_role": "link",
+        "name": "장바구니",
+        "children": [
+         {
+          "id": "w16",
+          "role": "text",
+          "raw_role": "StaticText",
+          "name": "장바구니"
+         }
+        ]
+       },
+       {
+        "id": "w17",
+        "role": "link",
+        "raw_role": "link",
+        "name": "로그인",
+        "children": [
+         {
+          "id": "w18",
+          "role": "text",
+          "raw_role": "StaticText",
+          "name": "로그인"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "w19",
+      "role": "textbox",
+      "raw_role": "searchbox",
+      "name": "상품 검색"
+     }
+    ]
+   },
+   {
+    "id": "w20",
+    "role": "group",
+    "raw_role": "complementary",
+    "children": [
+     {
+      "id": "w21",
+      "role": "heading",
+      "raw_role": "heading",
+      "name": "분류",
+      "children": [
+       {
+        "id": "w22",
+        "role": "text",
+        "raw_role": "StaticText",
+        "name": "분류"
+       }
+      ]
+     },
+     {
+      "id": "w23",
+      "role": "list",
+      "raw_role": "list",
+      "children": [
+       {
+        "id": "w24",
+        "role": "listitem",
+        "raw_role": "listitem",
+        "children": [
+         {
+          "id": "w25",
+          "role": "generic",
+          "raw_role": "ListMarker",
+          "name": "• "
+         },
+         {
+          "id": "w26",
+          "role": "link",
+          "raw_role": "link",
+          "name": "필기구",
+          "children": [
+           {
+            "id": "w27",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "필기구"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "w28",
+        "role": "listitem",
+        "raw_role": "listitem",
+        "children": [
+         {
+          "id": "w29",
+          "role": "generic",
+          "raw_role": "ListMarker",
+          "name": "• "
+         },
+         {
+          "id": "w30",
+          "role": "link",
+          "raw_role": "link",
+          "name": "노트",
+          "children": [
+           {
+            "id": "w31",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "노트"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "w32",
+        "role": "listitem",
+        "raw_role": "listitem",
+        "children": [
+         {
+          "id": "w33",
+          "role": "generic",
+          "raw_role": "ListMarker",
+          "name": "• "
+         },
+         {
+          "id": "w34",
+          "role": "link",
+          "raw_role": "link",
+          "name": "다이어리",
+          "children": [
+           {
+            "id": "w35",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "다이어리"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "w36",
+        "role": "listitem",
+        "raw_role": "listitem",
+        "children": [
+         {
+          "id": "w37",
+          "role": "generic",
+          "raw_role": "ListMarker",
+          "name": "• "
+         },
+         {
+          "id": "w38",
+          "role": "link",
+          "raw_role": "link",
+          "name": "파일 · 바인더",
+          "children": [
+           {
+            "id": "w39",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "파일 · 바인더"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "w40",
+        "role": "listitem",
+        "raw_role": "listitem",
+        "children": [
+         {
+          "id": "w41",
+          "role": "generic",
+          "raw_role": "ListMarker",
+          "name": "• "
+         },
+         {
+          "id": "w42",
+          "role": "link",
+          "raw_role": "link",
+          "name": "데스크 용품",
+          "children": [
+           {
+            "id": "w43",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "데스크 용품"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "w44",
+        "role": "listitem",
+        "raw_role": "listitem",
+        "children": [
+         {
+          "id": "w45",
+          "role": "generic",
+          "raw_role": "ListMarker",
+          "name": "• "
+         },
+         {
+          "id": "w46",
+          "role": "link",
+          "raw_role": "link",
+          "name": "포장 용품",
+          "children": [
+           {
+            "id": "w47",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "포장 용품"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "w48",
+        "role": "listitem",
+        "raw_role": "listitem",
+        "children": [
+         {
+          "id": "w49",
+          "role": "generic",
+          "raw_role": "ListMarker",
+          "name": "• "
+         },
+         {
+          "id": "w50",
+          "role": "link",
+          "raw_role": "link",
+          "name": "미술 용품",
+          "children": [
+           {
+            "id": "w51",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "미술 용품"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "w52",
+        "role": "listitem",
+        "raw_role": "listitem",
+        "children": [
+         {
+          "id": "w53",
+          "role": "generic",
+          "raw_role": "ListMarker",
+          "name": "• "
+         },
+         {
+          "id": "w54",
+          "role": "link",
+          "raw_role": "link",
+          "name": "사무 기기",
+          "children": [
+           {
+            "id": "w55",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "사무 기기"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "w56",
+    "role": "group",
+    "raw_role": "main",
+    "children": [
+     {
+      "id": "w57",
+      "role": "group",
+      "raw_role": "region",
+      "name": "함께 보면 좋은 상품",
+      "children": [
+       {
+        "id": "w58",
+        "role": "heading",
+        "raw_role": "heading",
+        "name": "함께 보면 좋은 상품",
+        "children": [
+         {
+          "id": "w59",
+          "role": "text",
+          "raw_role": "StaticText",
+          "name": "함께 보면 좋은 상품"
+         }
+        ]
+       },
+       {
+        "id": "w60",
+        "role": "generic",
+        "raw_role": "generic",
+        "children": [
+         {
+          "id": "w61",
+          "role": "heading",
+          "raw_role": "heading",
+          "name": "젤펜 0.5",
+          "children": [
+           {
+            "id": "w62",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "젤펜 0.5"
+           }
+          ]
+         },
+         {
+          "id": "w63",
+          "role": "generic",
+          "raw_role": "paragraph",
+          "children": [
+           {
+            "id": "w64",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "1,500원"
+           }
+          ]
+         },
+         {
+          "id": "w65",
+          "role": "button",
+          "raw_role": "button",
+          "name": "담기",
+          "children": [
+           {
+            "id": "w66",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "담기"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "w67",
+        "role": "generic",
+        "raw_role": "generic",
+        "children": [
+         {
+          "id": "w68",
+          "role": "heading",
+          "raw_role": "heading",
+          "name": "스프링 노트",
+          "children": [
+           {
+            "id": "w69",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "스프링 노트"
+           }
+          ]
+         },
+         {
+          "id": "w70",
+          "role": "generic",
+          "raw_role": "paragraph",
+          "children": [
+           {
+            "id": "w71",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "3,000원"
+           }
+          ]
+         },
+         {
+          "id": "w72",
+          "role": "button",
+          "raw_role": "button",
+          "name": "담기",
+          "children": [
+           {
+            "id": "w73",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "담기"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "w74",
+        "role": "generic",
+        "raw_role": "generic",
+        "children": [
+         {
+          "id": "w75",
+          "role": "heading",
+          "raw_role": "heading",
+          "name": "형광펜 세트",
+          "children": [
+           {
+            "id": "w76",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "형광펜 세트"
+           }
+          ]
+         },
+         {
+          "id": "w77",
+          "role": "generic",
+          "raw_role": "paragraph",
+          "children": [
+           {
+            "id": "w78",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "4,500원"
+           }
+          ]
+         },
+         {
+          "id": "w79",
+          "role": "button",
+          "raw_role": "button",
+          "name": "담기",
+          "children": [
+           {
+            "id": "w80",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "담기"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "w81",
+        "role": "generic",
+        "raw_role": "generic",
+        "children": [
+         {
+          "id": "w82",
+          "role": "heading",
+          "raw_role": "heading",
+          "name": "포스트잇",
+          "children": [
+           {
+            "id": "w83",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "포스트잇"
+           }
+          ]
+         },
+         {
+          "id": "w84",
+          "role": "generic",
+          "raw_role": "paragraph",
+          "children": [
+           {
+            "id": "w85",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "2,000원"
+           }
+          ]
+         },
+         {
+          "id": "w86",
+          "role": "button",
+          "raw_role": "button",
+          "name": "담기",
+          "children": [
+           {
+            "id": "w87",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "담기"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "w88",
+      "role": "group",
+      "raw_role": "region",
+      "name": "주문서",
+      "children": [
+       {
+        "id": "w89",
+        "role": "heading",
+        "raw_role": "heading",
+        "name": "주문서 — 만년필 (12,000원)",
+        "children": [
+         {
+          "id": "w90",
+          "role": "text",
+          "raw_role": "StaticText",
+          "name": "주문서 — 만년필 (12,000원)"
+         }
+        ]
+       },
+       {
+        "id": "w91",
+        "role": "group",
+        "raw_role": "form",
+        "children": [
+         {
+          "id": "w92",
+          "role": "generic",
+          "raw_role": "LabelText",
+          "children": [
+           {
+            "id": "w93",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "수량 "
+           },
+           {
+            "id": "w94",
+            "role": "combobox",
+            "raw_role": "combobox",
+            "name": "수량",
+            "value": "2",
+            "states": [
+             "collapsed"
+            ],
+            "children": [
+             {
+              "id": "w95",
+              "role": "listbox",
+              "raw_role": "MenuListPopup",
+              "children": [
+               {
+                "id": "w96",
+                "role": "option",
+                "raw_role": "option",
+                "name": "1"
+               },
+               {
+                "id": "w97",
+                "role": "option",
+                "raw_role": "option",
+                "name": "2",
+                "states": [
+                 "selected"
+                ]
+               },
+               {
+                "id": "w98",
+                "role": "option",
+                "raw_role": "option",
+                "name": "3"
+               },
+               {
+                "id": "w99",
+                "role": "option",
+                "raw_role": "option",
+                "name": "4"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "w100",
+          "role": "generic",
+          "raw_role": "LabelText",
+          "children": [
+           {
+            "id": "w101",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "색상 "
+           },
+           {
+            "id": "w102",
+            "role": "combobox",
+            "raw_role": "combobox",
+            "name": "색상",
+            "value": "검정",
+            "states": [
+             "collapsed"
+            ],
+            "children": [
+             {
+              "id": "w103",
+              "role": "listbox",
+              "raw_role": "MenuListPopup",
+              "children": [
+               {
+                "id": "w104",
+                "role": "option",
+                "raw_role": "option",
+                "name": "검정",
+                "states": [
+                 "selected"
+                ]
+               },
+               {
+                "id": "w105",
+                "role": "option",
+                "raw_role": "option",
+                "name": "남색"
+               },
+               {
+                "id": "w106",
+                "role": "option",
+                "raw_role": "option",
+                "name": "빨강"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "w107",
+          "role": "checkbox",
+          "raw_role": "checkbox",
+          "name": "선물 포장 (+1,000원)",
+          "states": [
+           "checked",
+           "focused"
+          ]
+         },
+         {
+          "id": "w108",
+          "role": "checkbox",
+          "raw_role": "checkbox",
+          "name": "메시지 카드"
+         },
+         {
+          "id": "w109",
+          "role": "generic",
+          "raw_role": "LabelText",
+          "children": [
+           {
+            "id": "w110",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "받는 분 "
+           },
+           {
+            "id": "w111",
+            "role": "textbox",
+            "raw_role": "textbox",
+            "name": "받는 분"
+           }
+          ]
+         },
+         {
+          "id": "w112",
+          "role": "generic",
+          "raw_role": "LabelText",
+          "children": [
+           {
+            "id": "w113",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "요청 사항 "
+           },
+           {
+            "id": "w114",
+            "role": "textbox",
+            "raw_role": "textbox",
+            "name": "요청 사항"
+           }
+          ]
+         },
+         {
+          "id": "w115",
+          "role": "group",
+          "raw_role": "group",
+          "name": "배송",
+          "children": [
+           {
+            "id": "w116",
+            "role": "generic",
+            "raw_role": "Legend",
+            "children": [
+             {
+              "id": "w117",
+              "role": "text",
+              "raw_role": "StaticText",
+              "name": "배송"
+             }
+            ]
+           },
+           {
+            "id": "w118",
+            "role": "radio",
+            "raw_role": "radio",
+            "name": "택배",
+            "states": [
+             "checked"
+            ]
+           },
+           {
+            "id": "w119",
+            "role": "radio",
+            "raw_role": "radio",
+            "name": "매장 수령"
+           }
+          ]
+         },
+         {
+          "id": "w120",
+          "role": "generic",
+          "raw_role": "paragraph",
+          "children": [
+           {
+            "id": "w121",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "합계 "
+           },
+           {
+            "id": "w122",
+            "role": "generic",
+            "raw_role": "status",
+            "children": [
+             {
+              "id": "w142",
+              "role": "text",
+              "raw_role": "StaticText",
+              "name": "25,000원"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "w124",
+          "role": "button",
+          "raw_role": "button",
+          "name": "주문하기",
+          "children": [
+           {
+            "id": "w125",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "주문하기"
+           }
+          ]
+         },
+         {
+          "id": "w126",
+          "role": "button",
+          "raw_role": "button",
+          "name": "다시 쓰기",
+          "children": [
+           {
+            "id": "w127",
+            "role": "text",
+            "raw_role": "StaticText",
+            "name": "다시 쓰기"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "w128",
+        "role": "generic",
+        "raw_role": "status",
+        "children": [
+         {
+          "id": "w129",
+          "role": "text",
+          "raw_role": "StaticText",
+          "name": "주문 전"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "w130",
+    "role": "group",
+    "raw_role": "contentinfo",
+    "children": [
+     {
+      "id": "w131",
+      "role": "generic",
+      "raw_role": "paragraph",
+      "children": [
+       {
+        "id": "w132",
+        "role": "text",
+        "raw_role": "StaticText",
+        "name": "CUOP 문구점 · 측정용 가상 페이지"
+       }
+      ]
+     },
+     {
+      "id": "w133",
+      "role": "link",
+      "raw_role": "link",
+      "name": "이용약관",
+      "children": [
+       {
+        "id": "w134",
+        "role": "text",
+        "raw_role": "StaticText",
+        "name": "이용약관"
+       }
+      ]
+     },
+     {
+      "id": "w135",
+      "role": "text",
+      "raw_role": "StaticText",
+      "name": " "
+     },
+     {
+      "id": "w136",
+      "role": "link",
+      "raw_role": "link",
+      "name": "개인정보처리방침",
+      "children": [
+       {
+        "id": "w137",
+        "role": "text",
+        "raw_role": "StaticText",
+        "name": "개인정보처리방침"
+       }
+      ]
+     },
+     {
+      "id": "w138",
+      "role": "text",
+      "raw_role": "StaticText",
+      "name": " "
+     },
+     {
+      "id": "w139",
+      "role": "link",
+      "raw_role": "link",
+      "name": "고객센터",
+      "children": [
+       {
+        "id": "w140",
+        "role": "text",
+        "raw_role": "StaticText",
+        "name": "고객센터"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

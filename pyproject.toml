@@ -1,0 +1,40 @@
+[project]
+name = "cuop"
+version = "0.1.0"
+description = "Context Optimization Layer + MCP server for structured-UI computer use"
+requires-python = ">=3.14"
+dependencies = [
+    "mcp>=2.3,<3",                     # 공식 MCP Python SDK v2 (MCPServer)
+    "pydantic>=2.14,<3",
+    "playwright>=1.64",                # Web 수집기 — 사용 시작 시 `uv run playwright install chromium`
+    "pyobjc-framework-ApplicationServices>=12.2; sys_platform == 'darwin'",  # AXUIElement
+    "pyobjc-framework-Quartz>=12.2; sys_platform == 'darwin'",               # CGEvent 좌표 클릭·키 입력, 창 목록
+    "pyobjc-framework-Cocoa>=12.2; sys_platform == 'darwin'",                # NSRunningApplication (pid → 번들 ID)
+    "tiktoken>=0.14.0",                # Step 로그 토큰 추정 (o200k) — 첫 실행 때 인코딩 파일을 내려받아 캐시
+    # 6–8주: "pywinauto>=0.6.9; sys_platform == 'win32'",
+]
+
+[project.scripts]
+cuop-mcp = "cuop.mcp_server.server:main"
+cuop = "cuop.desktop.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1",
+    "ruff>=0.17",
+    "pyright>=1.1.414",
+    "python-docx>=1.2.0",
+    "openpyxl>=3.1.5",
+    "python-pptx>=1.0.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 120
+lint.select = ["E", "F", "I", "UP", "B", "ASYNC"]   # ASYNC: async 함수 안의 블로킹 호출 탐지
+
+[tool.pyright]
+typeCheckingMode = "strict"            # PyObjC를 쓰는 collectors/macos.py만 파일 상단 주석으로 완화

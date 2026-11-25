@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>CUOP 색 고르기</title>
+<style>
+  body { font: 15px system-ui, sans-serif; margin: 0; padding: 16px 40px; }
+  canvas { position: absolute; left: 40px; top: 120px; }
+</style>
+</head>
+<!-- 측정용 가상 페이지: 색 칸과 글자를 캔버스에만 그린다 → 접근성 트리에 이름이 거의 없어 web Partial Vision 확인용 -->
+<body>
+<h1>색 고르기</h1>
+<canvas id="c" width="300" height="200"></canvas>
+<p id="status" role="status" style="position: absolute; top: 340px"></p>
+<script>
+  // live_web_vision.py의 COLORS · TILE과 같아야 한다 (3열 × 2행, 칸 100px)
+  const COLORS = [["빨강", "#d33"], ["주황", "#e83"], ["노랑", "#dc3"], ["초록", "#3a5"], ["파랑", "#36d"], ["보라", "#839"]];
+  const c = document.getElementById("c"), g = c.getContext("2d");
+  let picked = -1;
+  const draw = () => {
+    COLORS.forEach(([name, color], i) => {
+      const x = (i % 3) * 100, y = Math.floor(i / 3) * 100;
+      g.fillStyle = color; g.fillRect(x, y, 100, 100);
+      g.lineWidth = i === picked ? 8 : 2; g.strokeStyle = i === picked ? "#000" : "#fff"; g.strokeRect(x + 4, y + 4, 92, 92);
+      g.fillStyle = "#fff"; g.font = "bold 20px system-ui"; g.textAlign = "center"; g.fillText(name, x + 50, y + 57);
+    });
+  };
+  c.addEventListener("click", (e) => {
+    picked = Math.floor(e.offsetY / 100) * 3 + Math.floor(e.offsetX / 100);
+    document.getElementById("status").textContent = "선택: " + COLORS[picked][0];
+    draw();
+  });
+  draw();
+</script>
+</body>
+</html>

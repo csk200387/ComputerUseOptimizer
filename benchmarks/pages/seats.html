@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>CUOP 소극장 — 좌석 선택</title>
+<style>
+  body { font: 15px system-ui, sans-serif; margin: 0; }
+  header, footer { padding: 8px 16px; background: #eef; }
+  main { padding: 16px; max-width: 640px; }
+  label { display: block; margin: 8px 0; }
+  .error { color: #b00; }
+</style>
+</head>
+<!-- 측정용 가상 페이지: 실제 공연 · 개인 정보 없음. 좌석은 캔버스에만 그린다(접근성 트리엔 캔버스 하나).
+     하네스가 로컬 HTTP 서버로 제공하고 예매 시 POST /order를 받는다 -->
+<body>
+<header><h1>CUOP 소극장</h1></header>
+<main>
+  <h2>연극 〈테스트〉 — 11월 20일 19:30</h2>
+  <p>좌석 배치도에서 좌석을 눌러 고르세요. 다시 누르면 취소됩니다.</p>
+  <canvas id="seats" width="410" height="290" aria-label="좌석 배치도"></canvas>
+  <p id="picked" role="status">선택한 좌석: 없음</p>
+  <label>예매자 이름 <input id="name" autocomplete="off"></label>
+  <label>인원 <select id="qty"><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
+  <p id="err" class="error" role="alert"></p>
+  <button type="button" id="book">예매하기</button>
+  <p id="status" role="status"></p>
+</main>
+<footer><p>CUOP 소극장 · 측정용 가상 페이지</p></footer>
+<script>
+  const ROWS = "ABCDE", COLS = 8, SIZE = 36, STEP = 44, LEFT = 40, TOP = 60;
+  const SOLD = new Set(["A1", "A2", "A5", "B3", "B7", "C3", "C6", "D1", "D8", "E4", "E5"]);
+  const picked = new Set();
+  const c = document.getElementById("seats"), g = c.getContext("2d");
+  const draw = () => {
+    g.clearRect(0, 0, c.width, c.height);
+    g.fillStyle = "#bbb"; g.fillRect(LEFT, 8, COLS * STEP - 8, 22);
+    g.fillStyle = "#000"; g.font = "14px system-ui"; g.textAlign = "center";
+    g.fillText("무대", LEFT + (COLS * STEP - 8) / 2, 24);
+    for (let j = 0; j < COLS; j++) g.fillText(String(j + 1), LEFT + j * STEP + SIZE / 2, TOP - 8);
+    [...ROWS].forEach((r, i) => {
+      const y = TOP + i * STEP;
+      g.fillStyle = "#000"; g.textAlign = "center"; g.fillText(r, LEFT / 2, y + SIZE / 2 + 5);
+      for (let j = 0; j < COLS; j++) {
+        const id = r + (j + 1), x = LEFT + j * STEP;
+        g.fillStyle = SOLD.has(id) ? "#999" : picked.has(id) ? "#2a7" : "#fff";
+        g.fillRect(x, y, SIZE, SIZE);
+        g.strokeStyle = "#555"; g.lineWidth = 1; g.strokeRect(x + 0.5, y + 0.5, SIZE - 1, SIZE - 1);
+        if (SOLD.has(id)) {
+          g.beginPath(); g.moveTo(x + 8, y + 8); g.lineTo(x + SIZE - 8, y + SIZE - 8);
+          g.moveTo(x + SIZE - 8, y + 8); g.lineTo(x + 8, y + SIZE - 8); g.stroke();
+        }
+      }
+    });
+  };
+  const seatAt = (px, py) => {
+    const j = Math.floor((px - LEFT) / STEP), i = Math.floor((py - TOP) / STEP);
+    const inside = (px - LEFT) % STEP < SIZE && (py - TOP) % STEP < SIZE;
+    return i >= 0 && i < ROWS.length && j >= 0 && j < COLS && inside ? ROWS[i] + (j + 1) : null;
+  };
+  const order = (a, b) => a[0].localeCompare(b[0]) || +a.slice(1) - +b.slice(1);
+  c.addEventListener("click", (e) => {
+    const id = seatAt(e.offsetX, e.offsetY);
+    if (!id || SOLD.has(id)) return;
+    picked.has(id) ? picked.delete(id) : picked.add(id);
+    document.getElementById("picked").textContent = "선택한 좌석: " + ([...picked].sort(order).join(", ") || "없음");
+    draw();
+  });
+  document.getElementById("book").onclick = async () => {
+    const name = document.getElementById("name").value.trim(), qty = +document.getElementById("qty").value;
+    const err = !name ? "예매자 이름을 입력하세요" : picked.size !== qty ? "인원 수만큼 좌석을 고르세요" : "";
+    document.getElementById("err").textContent = err;
+    if (err) return;
+    const seats = [...picked].sort(order);
+    try {
+      await fetch("/order", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ seats, name, qty }) });
+      document.getElementById("status").textContent = "예매 완료: " + seats.join(", ") + " · " + qty + "명";
+    } catch (e) {
+      document.getElementById("status").textContent = "예매 전송 실패";
+    }
+  };
+  draw();
+</script>
+</body>
+</html>

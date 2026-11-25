@@ -1,0 +1,9 @@
+ComputerUseOptimizer (CUOP)
+Copyright 2026 csk200387
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The command set, JSON envelope contract (version "2.6"), error codes and element
+reference format are modeled on vercel-labs/agent-desktop
+(https://github.com/vercel-labs/agent-desktop), licensed under the Apache License,
+Version 2.0. CUOP is an independent Python implementation of that interface.

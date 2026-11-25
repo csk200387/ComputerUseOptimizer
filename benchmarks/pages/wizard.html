@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>CUOP 문구점 — 주문서 작성</title>
+<style>
+  body { font: 15px system-ui, sans-serif; margin: 0; }
+  header, footer { padding: 8px 16px; background: #eef; }
+  nav a { margin-right: 12px; } main { padding: 16px; max-width: 640px; }
+  ol.steps { display: flex; gap: 16px; list-style: none; padding: 0; }
+  ol.steps li[aria-current="step"] { font-weight: bold; }
+  label { display: block; margin: 8px 0; }
+  .error { color: #b00; } [role="dialog"] { border: 2px solid #333; padding: 16px; background: #fff; }
+</style>
+</head>
+<!-- 측정용 가상 페이지: 실제 서비스 · 개인 정보 없음. 하네스가 로컬 HTTP 서버로 제공하고 주문 완료 시 POST /order를 받는다 -->
+<body>
+<header>
+  <h1>CUOP 문구점</h1>
+  <nav aria-label="주 메뉴"><a href="#new">신상품</a><a href="#best">베스트</a><a href="#cart">장바구니</a><a href="#help">고객센터</a></nav>
+</header>
+<main>
+  <h2>주문서 작성 — 만년필 (12,000원)</h2>
+  <ol class="steps" aria-label="주문 단계">
+    <li id="step1" aria-current="step">1. 배송 정보</li><li id="step2">2. 옵션</li><li id="step3">3. 확인</li>
+  </ol>
+
+  <section id="page1" aria-label="배송 정보">
+    <label>받는 분 <input id="name" autocomplete="off"></label>
+    <label>연락처 <input id="phone" placeholder="010-0000-0000" autocomplete="off"></label>
+    <label>주소 <input id="addr" autocomplete="off"></label>
+    <label>우편번호 <input id="zip" inputmode="numeric" placeholder="5자리" autocomplete="off"></label>
+    <p id="err1" class="error" role="alert"></p>
+    <button type="button" id="next1">다음</button>
+  </section>
+
+  <section id="page2" aria-label="옵션" hidden>
+    <label>수량 <select id="qty"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+    <fieldset><legend>포장</legend>
+      <label><input type="radio" name="wrap" value="기본" checked> 기본 포장</label>
+      <label><input type="radio" name="wrap" value="선물"> 선물 포장 (+2,000원)</label>
+    </fieldset>
+    <label>쿠폰 코드 <input id="coupon" autocomplete="off"></label>
+    <button type="button" id="apply">쿠폰 적용</button>
+    <p id="couponMsg" role="status"></p>
+    <label>배송 메모 <textarea id="memo" rows="2"></textarea></label>
+    <p>합계 <output id="total">12,000원</output></p>
+    <button type="button" id="prev2">이전</button> <button type="button" id="next2">다음</button>
+  </section>
+
+  <section id="page3" aria-label="확인" hidden>
+    <h3>주문 내용</h3>
+    <ul id="summary"></ul>
+    <label><input type="checkbox" id="agree"> 구매 조건에 동의합니다</label>
+    <p id="err3" class="error" role="alert"></p>
+    <button type="button" id="prev3">이전</button> <button type="button" id="order">주문하기</button>
+  </section>
+
+  <div id="modal" role="dialog" aria-modal="true" aria-label="주문 확인" hidden>
+    <p>이 내용으로 주문하시겠습니까?</p>
+    <button type="button" id="ok">확인</button> <button type="button" id="cancel">취소</button>
+  </div>
+  <p id="status" role="status">작성 중</p>
+</main>
+<footer><p>CUOP 문구점 · 측정용 가상 페이지</p><a href="#terms">이용약관</a> <a href="#privacy">개인정보처리방침</a></footer>
+<script>
+  const $ = (id) => document.getElementById(id);
+  let coupon = false;
+  const wrap = () => document.querySelector('input[name="wrap"]:checked').value;
+  const total = () => Math.round((12000 * +$("qty").value + (wrap() === "선물" ? 2000 : 0)) * (coupon ? 0.9 : 1));
+  const won = (n) => n.toLocaleString("ko-KR") + "원";
+  const show = (n) => {
+    for (const i of [1, 2, 3]) {
+      $("page" + i).hidden = i !== n;
+      if (i === n) $("step" + i).setAttribute("aria-current", "step"); else $("step" + i).removeAttribute("aria-current");
+    }
+  };
+  const refresh = () => { $("total").value = won(total()); };
+  for (const el of [$("qty"), ...document.querySelectorAll('input[name="wrap"]')]) el.addEventListener("change", refresh);
+
+  $("next1").onclick = () => {
+    const errs = [];
+    if (!$("name").value.trim()) errs.push("받는 분을 입력하세요");
+    if (!/^010-\d{4}-\d{4}$/.test($("phone").value.trim())) errs.push("연락처는 010-0000-0000 형식으로 입력하세요");
+    if (!$("addr").value.trim()) errs.push("주소를 입력하세요");
+    if (!/^\d{5}$/.test($("zip").value.trim())) errs.push("우편번호는 숫자 5자리입니다");
+    $("err1").textContent = errs.join(" · ");
+    if (!errs.length) show(2);
+  };
+  $("apply").onclick = () => {
+    coupon = $("coupon").value.trim().toUpperCase() === "CUOP10";
+    $("couponMsg").textContent = coupon ? "쿠폰 적용: 10% 할인" : "유효하지 않은 쿠폰입니다";
+    refresh();
+  };
+  $("prev2").onclick = () => show(1);
+  $("next2").onclick = () => {
+    const items = [["받는 분", $("name").value], ["연락처", $("phone").value], ["주소", $("addr").value + " (" + $("zip").value + ")"],
+                   ["수량", $("qty").value + "개"], ["포장", wrap()], ["쿠폰", coupon ? "CUOP10 (10%)" : "없음"], ["합계", won(total())]];
+    $("summary").replaceChildren(...items.map(([k, v]) => Object.assign(document.createElement("li"), { textContent: k + ": " + v })));
+    show(3);
+  };
+  $("prev3").onclick = () => show(2);
+  $("order").onclick = () => {
+    $("err3").textContent = $("agree").checked ? "" : "구매 조건에 동의해 주세요";
+    if ($("agree").checked) $("modal").hidden = false;
+  };
+  $("cancel").onclick = () => { $("modal").hidden = true; };
+  $("ok").onclick = async () => {
+    const order = { name: $("name").value.trim(), phone: $("phone").value.trim(), addr: $("addr").value.trim(), zip: $("zip").value.trim(),
+                    qty: +$("qty").value, wrap: wrap(), coupon, memo: $("memo").value, total: total() };
+    $("modal").hidden = true;
+    try {
+      await fetch("/order", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(order) });
+      $("status").textContent = "주문 완료: 주문번호 C-0001, 합계 " + won(order.total);
+      for (const i of [1, 2, 3]) $("page" + i).hidden = true;
+    } catch (e) {
+      $("status").textContent = "주문 전송 실패";
+    }
+  };
+</script>
+</body>
+</html>

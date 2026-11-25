@@ -1,0 +1,4122 @@
+{
+ "id": "s4",
+ "platform": "macos",
+ "app": "com.apple.TextEdit",
+ "window": "cuop-fixture.rtf",
+ "root": {
+  "id": "e1",
+  "role": "generic",
+  "raw_role": "AXApplication",
+  "name": "텍스트 편집기",
+  "children": [
+   {
+    "id": "e2",
+    "role": "window",
+    "raw_role": "AXWindow",
+    "name": "cuop-fixture.rtf",
+    "bounds": {
+     "x": 146,
+     "y": 71,
+     "w": 610,
+     "h": 860
+    },
+    "children": [
+     {
+      "id": "e3",
+      "role": "group",
+      "raw_role": "AXScrollArea",
+      "bounds": {
+       "x": 146,
+       "y": 139,
+       "w": 610,
+       "h": 792
+      },
+      "children": [
+       {
+        "id": "e4",
+        "role": "textbox",
+        "raw_role": "AXTextArea",
+        "bounds": {
+         "x": 146,
+         "y": 171,
+         "w": 610,
+         "h": 754
+        },
+        "states": [
+         "focused"
+        ]
+       },
+       {
+        "id": "e5",
+        "role": "generic",
+        "raw_role": "AXScrollBar",
+        "value": "0.18518517911434174",
+        "bounds": {
+         "x": 152,
+         "y": 913,
+         "w": 597,
+         "h": 19
+        },
+        "states": [
+         "disabled"
+        ]
+       },
+       {
+        "id": "e6",
+        "role": "generic",
+        "raw_role": "AXScrollBar",
+        "value": "0.615384578704834",
+        "bounds": {
+         "x": 738,
+         "y": 170,
+         "w": 19,
+         "h": 754
+        },
+        "states": [
+         "disabled"
+        ]
+       },
+       {
+        "id": "e7",
+        "role": "generic",
+        "raw_role": "AXRuler",
+        "bounds": {
+         "x": 146,
+         "y": 139,
+         "w": 610,
+         "h": 32
+        },
+        "children": [
+         {
+          "id": "e8",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "0.0",
+          "bounds": {
+           "x": 147,
+           "y": 148,
+           "w": 9,
+           "h": 6
+          }
+         },
+         {
+          "id": "e9",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "21.164021164021165",
+          "bounds": {
+           "x": 747,
+           "y": 148,
+           "w": 9,
+           "h": 6
+          }
+         },
+         {
+          "id": "e10",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "0.0",
+          "bounds": {
+           "x": 147,
+           "y": 144,
+           "w": 9,
+           "h": 10
+          }
+         },
+         {
+          "id": "e11",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "1.2698412698412698",
+          "bounds": {
+           "x": 187,
+           "y": 145,
+           "w": 6,
+           "h": 9
+          }
+         },
+         {
+          "id": "e12",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "2.5396825396825395",
+          "bounds": {
+           "x": 223,
+           "y": 145,
+           "w": 6,
+           "h": 9
+          }
+         },
+         {
+          "id": "e13",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "3.8095238095238093",
+          "bounds": {
+           "x": 259,
+           "y": 145,
+           "w": 6,
+           "h": 9
+          }
+         },
+         {
+          "id": "e14",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "5.079365079365079",
+          "bounds": {
+           "x": 295,
+           "y": 145,
+           "w": 6,
+           "h": 9
+          }
+         },
+         {
+          "id": "e15",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "6.349206349206349",
+          "bounds": {
+           "x": 331,
+           "y": 145,
+           "w": 6,
+           "h": 9
+          }
+         },
+         {
+          "id": "e16",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "7.619047619047619",
+          "bounds": {
+           "x": 367,
+           "y": 145,
+           "w": 6,
+           "h": 9
+          }
+         },
+         {
+          "id": "e17",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "8.88888888888889",
+          "bounds": {
+           "x": 403,
+           "y": 145,
+           "w": 6,
+           "h": 9
+          }
+         },
+         {
+          "id": "e18",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "10.158730158730158",
+          "bounds": {
+           "x": 439,
+           "y": 145,
+           "w": 6,
+           "h": 9
+          }
+         },
+         {
+          "id": "e19",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "11.428571428571429",
+          "bounds": {
+           "x": 475,
+           "y": 145,
+           "w": 6,
+           "h": 9
+          }
+         },
+         {
+          "id": "e20",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "12.698412698412698",
+          "bounds": {
+           "x": 511,
+           "y": 145,
+           "w": 6,
+           "h": 9
+          }
+         },
+         {
+          "id": "e21",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "13.968253968253968",
+          "bounds": {
+           "x": 547,
+           "y": 145,
+           "w": 6,
+           "h": 9
+          }
+         },
+         {
+          "id": "e22",
+          "role": "generic",
+          "raw_role": "AXRulerMarker",
+          "value": "15.238095238095237",
+          "bounds": {
+           "x": 583,
+           "y": 145,
+           "w": 6,
+           "h": 9
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "e23",
+      "role": "group",
+      "raw_role": "AXGroup",
+      "bounds": {
+       "x": 153,
+       "y": 110,
+       "w": 85,
+       "h": 22
+      },
+      "children": [
+       {
+        "id": "e24",
+        "role": "checkbox",
+        "raw_role": "AXCheckBox",
+        "name": "볼드체",
+        "description": "볼드 텍스트",
+        "bounds": {
+         "x": 154,
+         "y": 111,
+         "w": 20,
+         "h": 20
+        },
+        "states": [
+         "checked"
+        ]
+       },
+       {
+        "id": "e25",
+        "role": "checkbox",
+        "raw_role": "AXCheckBox",
+        "name": "이탤릭체",
+        "description": "이탤릭체 텍스트",
+        "bounds": {
+         "x": 175,
+         "y": 111,
+         "w": 20,
+         "h": 20
+        }
+       },
+       {
+        "id": "e26",
+        "role": "checkbox",
+        "raw_role": "AXCheckBox",
+        "name": "밑줄체",
+        "description": "밑줄체 텍스트",
+        "bounds": {
+         "x": 196,
+         "y": 111,
+         "w": 20,
+         "h": 20
+        }
+       },
+       {
+        "id": "e27",
+        "role": "checkbox",
+        "raw_role": "AXCheckBox",
+        "name": "취소선",
+        "description": "텍스트 취소선",
+        "bounds": {
+         "x": 217,
+         "y": 111,
+         "w": 20,
+         "h": 20
+        }
+       }
+      ]
+     },
+     {
+      "id": "e28",
+      "role": "generic",
+      "raw_role": "AXColorWell",
+      "name": "텍스트 색상",
+      "value": "rgb 1 1 1 1",
+      "description": "텍스트 색상을 선택하려면 클릭합니다.",
+      "bounds": {
+       "x": 241,
+       "y": 110,
+       "w": 22,
+       "h": 22
+      }
+     },
+     {
+      "id": "e29",
+      "role": "generic",
+      "raw_role": "AXColorWell",
+      "name": "텍스트 배경 색상",
+      "value": "rgb 0.117647 0.117647 0.117647 1",
+      "description": "텍스트 배경 색상을 선택하려면 클릭합니다.",
+      "bounds": {
+       "x": 266,
+       "y": 110,
+       "w": 22,
+       "h": 22
+      }
+     },
+     {
+      "id": "e30",
+      "role": "combobox",
+      "raw_role": "AXPopUpButton",
+      "name": "글자체",
+      "value": "Helvetica",
+      "description": "글자체를 선택합니다.",
+      "bounds": {
+       "x": 291,
+       "y": 110,
+       "w": 82,
+       "h": 22
+      }
+     },
+     {
+      "id": "e31",
+      "role": "combobox",
+      "raw_role": "AXPopUpButton",
+      "name": "스타일",
+      "value": "볼드체",
+      "description": "스타일 선택합니다.",
+      "bounds": {
+       "x": 376,
+       "y": 110,
+       "w": 82,
+       "h": 22
+      }
+     },
+     {
+      "id": "e32",
+      "role": "combobox",
+      "raw_role": "AXComboBox",
+      "name": "서체 크기",
+      "value": "12",
+      "description": "서체 크기를 설정합니다",
+      "bounds": {
+       "x": 461,
+       "y": 110,
+       "w": 52,
+       "h": 22
+      },
+      "states": [
+       "collapsed"
+      ],
+      "children": [
+       {
+        "id": "e33",
+        "role": "button",
+        "raw_role": "AXButton",
+        "name": "서체 크기",
+        "bounds": {
+         "x": 490,
+         "y": 114,
+         "w": 20,
+         "h": 14
+        }
+       }
+      ]
+     },
+     {
+      "id": "e34",
+      "role": "group",
+      "raw_role": "AXGroup",
+      "bounds": {
+       "x": 516,
+       "y": 110,
+       "w": 85,
+       "h": 22
+      },
+      "children": [
+       {
+        "id": "e35",
+        "role": "checkbox",
+        "raw_role": "AXCheckBox",
+        "name": "왼쪽 정렬",
+        "description": "텍스트 왼쪽 정렬",
+        "bounds": {
+         "x": 517,
+         "y": 111,
+         "w": 20,
+         "h": 20
+        }
+       },
+       {
+        "id": "e36",
+        "role": "checkbox",
+        "raw_role": "AXCheckBox",
+        "name": "중앙 정렬",
+        "description": "텍스트를 중앙으로 정렬합니다",
+        "bounds": {
+         "x": 538,
+         "y": 111,
+         "w": 20,
+         "h": 20
+        },
+        "states": [
+         "checked"
+        ]
+       },
+       {
+        "id": "e37",
+        "role": "checkbox",
+        "raw_role": "AXCheckBox",
+        "name": "오른쪽 정렬",
+        "description": "텍스트 오른쪽 정렬",
+        "bounds": {
+         "x": 559,
+         "y": 111,
+         "w": 20,
+         "h": 20
+        }
+       },
+       {
+        "id": "e38",
+        "role": "checkbox",
+        "raw_role": "AXCheckBox",
+        "name": "좌우 정렬",
+        "description": "텍스트를 좌우로 정렬합니다.",
+        "bounds": {
+         "x": 580,
+         "y": 111,
+         "w": 20,
+         "h": 20
+        }
+       }
+      ]
+     },
+     {
+      "id": "e39",
+      "role": "button",
+      "raw_role": "AXMenuButton",
+      "name": "목록 스타일",
+      "description": "목록 구분점 및 번호",
+      "bounds": {
+       "x": 604,
+       "y": 110,
+       "w": 48,
+       "h": 22
+      }
+     },
+     {
+      "id": "e40",
+      "role": "combobox",
+      "raw_role": "AXPopUpButton",
+      "name": "줄 간격",
+      "value": "1.0",
+      "description": "줄 및 단락 간격",
+      "bounds": {
+       "x": 655,
+       "y": 110,
+       "w": 53,
+       "h": 22
+      }
+     },
+     {
+      "id": "e41",
+      "role": "button",
+      "raw_role": "AXButton",
+      "name": "CloseButton",
+      "bounds": {
+       "x": 154,
+       "y": 79,
+       "w": 16,
+       "h": 16
+      }
+     },
+     {
+      "id": "e42",
+      "role": "button",
+      "raw_role": "AXButton",
+      "name": "FullScreenButton",
+      "description": "이 버튼을 누르면 윈도우를 확대/축소합니다.",
+      "bounds": {
+       "x": 200,
+       "y": 79,
+       "w": 16,
+       "h": 16
+      },
+      "children": [
+       {
+        "id": "e43",
+        "role": "group",
+        "raw_role": "AXGroup",
+        "bounds": {
+         "x": 201,
+         "y": 80,
+         "w": 14,
+         "h": 14
+        },
+        "children": [
+         {
+          "id": "e345",
+          "role": "group",
+          "raw_role": "AXGroup",
+          "bounds": {
+           "x": 201,
+           "y": 80,
+           "w": 14,
+           "h": 14
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "e44",
+      "role": "button",
+      "raw_role": "AXButton",
+      "name": "MinimizeButton",
+      "bounds": {
+       "x": 177,
+       "y": 79,
+       "w": 16,
+       "h": 16
+      }
+     },
+     {
+      "id": "e45",
+      "role": "button",
+      "raw_role": "AXMenuButton",
+      "name": "문서 동작",
+      "bounds": {
+       "x": 351,
+       "y": 78,
+       "w": 12,
+       "h": 18
+      },
+      "states": [
+       "disabled"
+      ]
+     },
+     {
+      "id": "e46",
+      "role": "image",
+      "raw_role": "AXImage",
+      "name": "cuop-fixture.rtf",
+      "bounds": {
+       "x": 227,
+       "y": 77,
+       "w": 18,
+       "h": 18
+      }
+     },
+     {
+      "id": "e47",
+      "role": "text",
+      "raw_role": "AXStaticText",
+      "name": "cuop-fixture.rtf",
+      "bounds": {
+       "x": 246,
+       "y": 79,
+       "w": 106,
+       "h": 16
+      }
+     }
+    ]
+   },
+   {
+    "id": "e48",
+    "role": "menubar",
+    "raw_role": "AXMenuBar",
+    "bounds": {
+     "x": 0,
+     "y": 0,
+     "w": 1470,
+     "h": 33
+    },
+    "children": [
+     {
+      "id": "e49",
+      "role": "menuitem",
+      "raw_role": "AXMenuBarItem",
+      "name": "텍스트 편집기",
+      "bounds": {
+       "x": 44,
+       "y": 0,
+       "w": 91,
+       "h": 33
+      },
+      "children": [
+       {
+        "id": "e50",
+        "role": "menu",
+        "raw_role": "AXMenu",
+        "bounds": {
+         "x": 0,
+         "y": 956,
+         "w": 0,
+         "h": 0
+        },
+        "children": [
+         {
+          "id": "e51",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "텍스트 편집기에 관하여",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e52",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e53",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "설정…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e54",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e55",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "서비스",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e59",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e60",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "텍스트 편집기 가리기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e61",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "기타 가리기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e62",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "모두 보기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e63",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e64",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "텍스트 편집기 종료",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e65",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "종료 및 윈도우 유지",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "e66",
+      "role": "menuitem",
+      "raw_role": "AXMenuBarItem",
+      "name": "파일",
+      "bounds": {
+       "x": 135,
+       "y": 0,
+       "w": 43,
+       "h": 33
+      },
+      "children": [
+       {
+        "id": "e67",
+        "role": "menu",
+        "raw_role": "AXMenu",
+        "bounds": {
+         "x": 0,
+         "y": 956,
+         "w": 0,
+         "h": 0
+        },
+        "children": [
+         {
+          "id": "e68",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "신규",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e69",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "열기…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e70",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "최근 사용 열기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e83",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e84",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "닫기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e85",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "모두 닫기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e86",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "저장",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e87",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "별도 저장…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e88",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "복제",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e89",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "이름 변경…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e90",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "다음으로 이동…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e91",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "다음으로 복귀",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e92",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e93",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "모든 버전 탐색…",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e94",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e95",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "<<Import From Device - unlocalized>>",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e96",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            }
+           }
+          ]
+         },
+         {
+          "id": "e97",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "PDF로 내보내기…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e98",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "공유",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e109",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e110",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "속성 보기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e111",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e112",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "페이지 설정…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e113",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "프린트…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "e114",
+      "role": "menuitem",
+      "raw_role": "AXMenuBarItem",
+      "name": "편집",
+      "bounds": {
+       "x": 178,
+       "y": 0,
+       "w": 43,
+       "h": 33
+      },
+      "children": [
+       {
+        "id": "e115",
+        "role": "menu",
+        "raw_role": "AXMenu",
+        "bounds": {
+         "x": 0,
+         "y": 956,
+         "w": 0,
+         "h": 0
+        },
+        "children": [
+         {
+          "id": "e116",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "실행 취소",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e117",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "실행 복귀",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e118",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e119",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "오려두기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e120",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "복사하기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e121",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "붙여넣기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e122",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "붙여넣고 스타일 일치",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e123",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "삭제",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e124",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "완성",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e125",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "모두 선택",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e126",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e127",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "삽입",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e128",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e129",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "줄 바꿈",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e130",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "단락 바꿈",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e131",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "페이지 바꿈",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e132",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "파일 첨부…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e133",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "링크 추가…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e134",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e135",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "찾기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e136",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e137",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "찾기…",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e138",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "찾기 및 대치…",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e139",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "다음 찾기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e140",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "이전 찾기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e141",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "선택 부분으로 찾기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e142",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "선택 부분으로 이동",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e143",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "줄 선택...",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e144",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "글쓰기 도구",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e145",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e146",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "글쓰기 도구 표시",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e147",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e148",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "교정",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e149",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "재작성",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e150",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e151",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "친근하게 만들기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e152",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "전문적으로 만들기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e153",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "간결하게 만들기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e154",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e155",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "요약",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e156",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "키 포인트 생성",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e157",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "목록으로 만들기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e158",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "표로 만들기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e159",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e160",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "작문…",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e161",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "맞춤법 및 문법",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e162",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e163",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "맞춤법 및 문법 보기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e164",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "지금 문서 검사",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e165",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e166",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "입력하는 동안 맞춤법 검사",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e167",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "맞춤법 및 문법 검사",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e168",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "맞춤법 자동 수정",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e169",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "대체",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e170",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e171",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "대체 보기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e172",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e173",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "스마트 복사하기/붙여넣기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e174",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "스마트 인용 부호",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e175",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "스마트 대시",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e176",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "스마트 링크",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e177",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "데이터 탐색기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e178",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "텍스트 대치",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e179",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "변형",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e180",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e181",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "대문자로 만들기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e182",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "소문자로 만들기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e183",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "대문자로 시작",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e184",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "말하기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e185",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e186",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "말하기 시작",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e187",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "말하기 중단",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e188",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e189",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "자동 완성",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e190",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e191",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "연락처…",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e192",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "암호…",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e193",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "신용 카드…",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e194",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "받아쓰기 시작…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e195",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "이모지 및 기호",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "e196",
+      "role": "menuitem",
+      "raw_role": "AXMenuBarItem",
+      "name": "포맷",
+      "bounds": {
+       "x": 221,
+       "y": 0,
+       "w": 43,
+       "h": 33
+      },
+      "children": [
+       {
+        "id": "e197",
+        "role": "menu",
+        "raw_role": "AXMenu",
+        "bounds": {
+         "x": 0,
+         "y": 956,
+         "w": 0,
+         "h": 0
+        },
+        "children": [
+         {
+          "id": "e198",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "서체",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e199",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e200",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "서체 보기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e201",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "볼드체",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e202",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "이탤릭체",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e203",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "밑줄체",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e204",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "윤곽체",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e205",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "하이라이트",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "children": [
+               {
+                "id": "e206",
+                "role": "menu",
+                "raw_role": "AXMenu",
+                "bounds": {
+                 "x": 0,
+                 "y": 956,
+                 "w": 0,
+                 "h": 0
+                },
+                "children": [
+                 {
+                  "id": "e207",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "강조",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e208",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  },
+                  "states": [
+                   "disabled"
+                  ]
+                 },
+                 {
+                  "id": "e209",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "보라색",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e210",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "분홍색",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e211",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "주황색",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e212",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "민트색",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e213",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "파란색",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "id": "e214",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "스타일...",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e215",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e216",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "크게",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e217",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "작게",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e218",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e219",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "자간",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "children": [
+               {
+                "id": "e220",
+                "role": "menu",
+                "raw_role": "AXMenu",
+                "bounds": {
+                 "x": 0,
+                 "y": 956,
+                 "w": 0,
+                 "h": 0
+                },
+                "children": [
+                 {
+                  "id": "e221",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "기본값 사용",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e222",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "사용하지 않음",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e223",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "좁게",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e224",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "넓게",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "id": "e225",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "합자",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "children": [
+               {
+                "id": "e226",
+                "role": "menu",
+                "raw_role": "AXMenu",
+                "bounds": {
+                 "x": 0,
+                 "y": 956,
+                 "w": 0,
+                 "h": 0
+                },
+                "children": [
+                 {
+                  "id": "e227",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "기본값 사용",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e228",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "사용하지 않음",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e229",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "모두 사용",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "id": "e230",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "기준선",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "children": [
+               {
+                "id": "e231",
+                "role": "menu",
+                "raw_role": "AXMenu",
+                "bounds": {
+                 "x": 0,
+                 "y": 956,
+                 "w": 0,
+                 "h": 0
+                },
+                "children": [
+                 {
+                  "id": "e232",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "기본값 사용",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e233",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "위 첨자",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e234",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "아래 첨자",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e235",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "올리기",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e236",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "내리기",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "id": "e237",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "문자 모양",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "children": [
+               {
+                "id": "e238",
+                "role": "menu",
+                "raw_role": "AXMenu",
+                "bounds": {
+                 "x": 0,
+                 "y": 956,
+                 "w": 0,
+                 "h": 0
+                },
+                "children": [
+                 {
+                  "id": "e239",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "기존 모양",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "id": "e240",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e241",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "색상 보기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e242",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e243",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "스타일 복사하기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e244",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "스타일 붙여넣기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e245",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "텍스트",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e246",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e247",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "왼쪽 정렬",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e248",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "중앙",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e249",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "좌우 정렬",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e250",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "오른쪽 정렬",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e251",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e252",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "작성 방향",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "children": [
+               {
+                "id": "e253",
+                "role": "menu",
+                "raw_role": "AXMenu",
+                "bounds": {
+                 "x": 0,
+                 "y": 956,
+                 "w": 0,
+                 "h": 0
+                },
+                "children": [
+                 {
+                  "id": "e254",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "단락",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  },
+                  "states": [
+                   "disabled"
+                  ]
+                 },
+                 {
+                  "id": "e255",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "기본 설정",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e256",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "왼쪽에서 오른쪽",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e257",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "오른쪽에서 왼쪽",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e258",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  },
+                  "states": [
+                   "disabled"
+                  ]
+                 },
+                 {
+                  "id": "e259",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "선택 부분",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  },
+                  "states": [
+                   "disabled"
+                  ]
+                 },
+                 {
+                  "id": "e260",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "기본 설정",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e261",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "왼쪽에서 오른쪽",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 },
+                 {
+                  "id": "e262",
+                  "role": "menuitem",
+                  "raw_role": "AXMenuItem",
+                  "name": "오른쪽에서 왼쪽",
+                  "bounds": {
+                   "x": 0,
+                   "y": 956,
+                   "w": 0,
+                   "h": 0
+                  }
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "id": "e263",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e264",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "눈금자 보기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e265",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "눈금자 복사하기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e266",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "눈금자 붙여넣기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e267",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e268",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "간격...",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e269",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e270",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "일반 텍스트 만들기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e271",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "편집 허용 안 함",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e272",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "페이지로 보기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e273",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "하이픈 허용",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e274",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "레이아웃을 세로쓰기로 만들기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e275",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e276",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "목록…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e277",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "표…",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "e278",
+      "role": "menuitem",
+      "raw_role": "AXMenuBarItem",
+      "name": "보기",
+      "bounds": {
+       "x": 264,
+       "y": 0,
+       "w": 43,
+       "h": 33
+      },
+      "children": [
+       {
+        "id": "e279",
+        "role": "menu",
+        "raw_role": "AXMenu",
+        "bounds": {
+         "x": 0,
+         "y": 956,
+         "w": 0,
+         "h": 0
+        },
+        "children": [
+         {
+          "id": "e280",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "탭 막대 보기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e281",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "모든 탭 보기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e282",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e283",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "윈도우에 다크 모드 배경 사용",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e284",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e285",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "실제 크기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e286",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "확대",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e287",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "축소",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e288",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e289",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "전체 화면 시작",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "e290",
+      "role": "menuitem",
+      "raw_role": "AXMenuBarItem",
+      "name": "윈도우",
+      "bounds": {
+       "x": 307,
+       "y": 0,
+       "w": 54,
+       "h": 33
+      },
+      "children": [
+       {
+        "id": "e291",
+        "role": "menu",
+        "raw_role": "AXMenu",
+        "bounds": {
+         "x": 0,
+         "y": 956,
+         "w": 0,
+         "h": 0
+        },
+        "children": [
+         {
+          "id": "e292",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "최소화",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e293",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "모두 최소화",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e294",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "확대/축소",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e295",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "모두 확대/축소",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e296",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "채우기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e297",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "중앙 정렬",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e298",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e299",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "이동 및 크기 조절",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e300",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e301",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "이분면",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e302",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "왼쪽",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e303",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "오른쪽",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e304",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "상단",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e305",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "하단",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e306",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e307",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "사분면",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e308",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "왼쪽 상단",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e309",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "오른쪽 상단",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e310",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "왼쪽 하단",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e311",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "오른쪽 하단",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e312",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e313",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "정렬",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e314",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "왼쪽과 오른쪽",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e315",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "왼쪽 및 사분면",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e316",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "오른쪽 및 왼쪽",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e317",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "오른쪽 및 사분면",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e318",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "상단 및 하단",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e319",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "상단 및 사분면",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e320",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "아래와 위",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e321",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "하단 및 사분면",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e322",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "사분면",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e323",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             },
+             {
+              "id": "e324",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "이전 크기로 돌아가기",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              },
+              "states": [
+               "disabled"
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e325",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "전체 화면 타일",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "children": [
+           {
+            "id": "e346",
+            "role": "menu",
+            "raw_role": "AXMenu",
+            "bounds": {
+             "x": 0,
+             "y": 956,
+             "w": 0,
+             "h": 0
+            },
+            "children": [
+             {
+              "id": "e347",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "화면 왼쪽",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             },
+             {
+              "id": "e348",
+              "role": "menuitem",
+              "raw_role": "AXMenuItem",
+              "name": "화면 오른쪽",
+              "bounds": {
+               "x": 0,
+               "y": 956,
+               "w": 0,
+               "h": 0
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "e329",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e330",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "세트에서 윈도우 제거",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e331",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e332",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "모두 앞으로 가져오기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e333",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "차례대로 정렬",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         },
+         {
+          "id": "e334",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e335",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "이전 탭 보기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e336",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "다음 탭 보기",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e337",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "새로운 윈도우로 탭 이동",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e338",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "모든 윈도우 통합",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e339",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e340",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          },
+          "states": [
+           "disabled"
+          ]
+         },
+         {
+          "id": "e341",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "cuop-fixture.rtf",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "id": "e342",
+      "role": "menuitem",
+      "raw_role": "AXMenuBarItem",
+      "name": "도움말",
+      "bounds": {
+       "x": 361,
+       "y": 0,
+       "w": 54,
+       "h": 33
+      },
+      "children": [
+       {
+        "id": "e343",
+        "role": "menu",
+        "raw_role": "AXMenu",
+        "bounds": {
+         "x": 0,
+         "y": 956,
+         "w": 0,
+         "h": 0
+        },
+        "children": [
+         {
+          "id": "e344",
+          "role": "menuitem",
+          "raw_role": "AXMenuItem",
+          "name": "텍스트 편집기 도움말",
+          "bounds": {
+           "x": 0,
+           "y": 956,
+           "w": 0,
+           "h": 0
+          }
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

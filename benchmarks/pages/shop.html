@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>CUOP 문구점 — 주문</title>
+<style>
+  body { font: 15px system-ui, sans-serif; margin: 0; display: grid; grid-template-columns: 180px 1fr; }
+  header, footer { grid-column: 1 / -1; padding: 8px 16px; background: #eef; }
+  nav a { margin-right: 12px; } aside { padding: 16px; } main { padding: 16px; }
+  .card { display: inline-block; width: 150px; margin: 4px; padding: 8px; border: 1px solid #ccc; vertical-align: top; }
+  form label { display: block; margin: 6px 0; }
+</style>
+</head>
+<!-- 측정용 가상 페이지: 실제 서비스 · 개인 정보 없음. 작업 = 수량 2 · 선물 포장 · 받는 분 · 주문하기 -->
+<body>
+<header>
+  <h1>CUOP 문구점</h1>
+  <nav aria-label="주 메뉴">
+    <a href="#new">신상품</a><a href="#best">베스트</a><a href="#sale">할인</a><a href="#event">이벤트</a>
+    <a href="#cart">장바구니</a><a href="#login">로그인</a>
+  </nav>
+  <input type="search" aria-label="상품 검색" placeholder="상품 검색">
+</header>
+<aside>
+  <h2>분류</h2>
+  <ul>
+    <li><a href="#c1">필기구</a></li><li><a href="#c2">노트</a></li><li><a href="#c3">다이어리</a></li>
+    <li><a href="#c4">파일 · 바인더</a></li><li><a href="#c5">데스크 용품</a></li><li><a href="#c6">포장 용품</a></li>
+    <li><a href="#c7">미술 용품</a></li><li><a href="#c8">사무 기기</a></li>
+  </ul>
+</aside>
+<main>
+  <section aria-label="함께 보면 좋은 상품">
+    <h2>함께 보면 좋은 상품</h2>
+    <div class="card"><h3>젤펜 0.5</h3><p>1,500원</p><button type="button">담기</button></div>
+    <div class="card"><h3>스프링 노트</h3><p>3,000원</p><button type="button">담기</button></div>
+    <div class="card"><h3>형광펜 세트</h3><p>4,500원</p><button type="button">담기</button></div>
+    <div class="card"><h3>포스트잇</h3><p>2,000원</p><button type="button">담기</button></div>
+  </section>
+  <section aria-label="주문서">
+    <h2>주문서 — 만년필 (12,000원)</h2>
+    <form id="order" onsubmit="event.preventDefault(); done();">
+      <label>수량 <select id="qty"><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
+      <label>색상 <select id="color"><option>검정</option><option>남색</option><option>빨강</option></select></label>
+      <label><input type="checkbox" id="wrap"> 선물 포장 (+1,000원)</label>
+      <label><input type="checkbox" id="card"> 메시지 카드</label>
+      <label>받는 분 <input id="to" autocomplete="off"></label>
+      <label>요청 사항 <textarea id="memo" rows="2"></textarea></label>
+      <fieldset><legend>배송</legend>
+        <label><input type="radio" name="ship" checked> 택배</label>
+        <label><input type="radio" name="ship"> 매장 수령</label>
+      </fieldset>
+      <p>합계 <output id="total">12,000원</output></p>
+      <button type="submit">주문하기</button> <button type="reset">다시 쓰기</button>
+    </form>
+    <p id="status" role="status">주문 전</p>
+  </section>
+</main>
+<footer>
+  <p>CUOP 문구점 · 측정용 가상 페이지</p>
+  <a href="#terms">이용약관</a> <a href="#privacy">개인정보처리방침</a> <a href="#help">고객센터</a>
+</footer>
+<script>
+  const $ = (id) => document.getElementById(id);
+  const total = () => { $("total").value = (12000 * +$("qty").value + ($("wrap").checked ? 1000 : 0)).toLocaleString("ko-KR") + "원"; };
+  for (const id of ["qty", "wrap"]) $(id).addEventListener("change", total);
+  function done() {
+    $("status").textContent = `주문 완료: ${$("qty").value}개, 포장 ${$("wrap").checked ? "함" : "안 함"}, 받는 분 ${$("to").value || "없음"}`;
+  }
+</script>
+</body>
+</html>
